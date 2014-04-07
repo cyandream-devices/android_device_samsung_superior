@@ -22,17 +22,17 @@ TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/cyandream/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/cyandream/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/superior/full_superior.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := superior
-PRODUCT_NAME := cm_superior
+PRODUCT_NAME := cd_superior
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-I9260
 PRODUCT_MANUFACTURER := samsung

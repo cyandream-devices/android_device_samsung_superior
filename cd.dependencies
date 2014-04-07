@@ -1,0 +1,27 @@
+[
+    {
+        "branch": "cm-11.0",
+    "repository": "CyanogenMod/android_device_samsung_piranha",
+        "target_path": "device/samsung/piranha"
+    },
+    {
+        "branch": "cm-11.0",
+    "repository": "CyanogenMod/android_kernel_samsung_piranha",
+        "target_path": "kernel/samsung/piranha"
+    },
+    {
+        "branch": "cm-11.0",
+    "repository": "CyanogenMod/android_hardware_samsung",
+        "target_path": "hardware/samsung"
+    },
+    {
+        "branch": "cm-11.0",
+    "repository": "CyanogenMod/android_packages_apps_SamsungServiceMode",
+        "target_path": "packages/apps/SamsungServiceMode"
+    },
+ { 
+   "branch": "cm-11.0", 
+   "repository": "TheMuppets/proprietary_vendor_samsung", 
+   "target_path": "vendor/samsung" 
+ } 
+]
